@@ -27,16 +27,27 @@
 ![step13](https://user-images.githubusercontent.com/103019032/170918131-79cd9979-a52c-48ae-bc74-6f8a8c8d58f1.PNG)
 - #### Choose instance type,i have choosed free tier instance type.
 ![step14](https://user-images.githubusercontent.com/103019032/170918136-72f3f530-a664-4840-9d13-1b4750fe06f1.PNG)
+- #### I haven't no changes,i have taken default.
 ![step15](https://user-images.githubusercontent.com/103019032/170918147-f9333ad5-2e23-4220-bcf6-8dede573820f.PNG)
+- #### Add storage,aws provide free tier upto 30gb.
 ![step16](https://user-images.githubusercontent.com/103019032/170918152-03058976-89f6-408c-b86a-130cba858dbe.PNG)
+- #### Next is add tag,i have given the key is Name ,and value is ELBSERVER2.
 ![step17](https://user-images.githubusercontent.com/103019032/170918162-19b3691a-5405-479f-b586-628ac1fd9d8b.PNG)
+- #### Next is configure security group,create new security group,name given by ELBSG1,and add two rules HTTP,HTTPS for web access.
 ![step18](https://user-images.githubusercontent.com/103019032/170918175-9c0cb59d-4bf1-4ae0-a56e-de51682c5f7c.PNG)
+- #### You can review what you have configured,otherwise click on launch.
 ![step19](https://user-images.githubusercontent.com/103019032/170918191-764b0be8-d30f-4105-866e-5b334460ed79.PNG)
+- #### After review instance,Download a key pair for connect ec2 securely.
 ![step20](https://user-images.githubusercontent.com/103019032/170918209-f68d73c2-5e0e-4e41-8049-0a4105dfc9a8.PNG)
+- #### After that,it show the message, your instance is running.
 ![step21](https://user-images.githubusercontent.com/103019032/170918219-2f654eb4-d3aa-4e16-9e44-fb28b93d225d.PNG)
+- #### We can see, our instance ELBSERVER2 is running,and it is ready for connect.
 ![step22](https://user-images.githubusercontent.com/103019032/170918231-612b2c69-f959-42a9-b22d-9255009bae16.PNG)
+- #### Click on ELBSERVER1 for connect instance.
 ![step23](https://user-images.githubusercontent.com/103019032/170918243-235f032d-fed2-4255-be18-db5ebcf92f7e.PNG)
+- #### Here we will paste the text file of the key pair we downloaded.
 ![step24](https://user-images.githubusercontent.com/103019032/170918251-ebc92036-e23d-48ea-86f7-676831a82f0a.PNG)
+
 ![step25](https://user-images.githubusercontent.com/103019032/170918258-5ced36d2-3a62-429a-8608-53f7610d8e6d.PNG)
 ![step26](https://user-images.githubusercontent.com/103019032/170918274-36cf2fac-1569-4104-945e-f7ce1ae9e075.PNG)
 ![step27](https://user-images.githubusercontent.com/103019032/170918286-bcf92069-7728-4063-bb91-effa2526d4e2.PNG)
